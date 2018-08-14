@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1402b64d-77e6-4780-84c7-3330b0176913" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../zhaopin-client/config-overrides.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zhaopin-client/src/containers/login/login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zhaopin-client/src/containers/main/main.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zhaopin-client/src/containers/register/register.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zhaopin-client/src/redux/action-types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zhaopin-client/src/redux/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zhaopin-client/src/redux/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zhaopin-client/src/redux/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../zhaopin-client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zhaopin-client/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../zhaopin-client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../zhaopin-client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../zhaopin-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../zhaopin-client/package.json" afterDir="false" />
@@ -29,45 +35,62 @@
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="html" value="2" />
-          <entry key="js" value="5" />
+          <entry key="js" value="15" />
           <entry key="json" value="3" />
-          <entry key="md" value="2" />
+          <entry key="jsx" value="6" />
+          <entry key="md" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Git file" value="1" />
-          <entry key="HTML" value="4" />
+          <entry key="HTML" value="6" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="5" />
+          <entry key="JSX Harmony" value="6" />
+          <entry key="JavaScript" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="6" />
-          <entry key="js" value="134" />
+          <entry key="js" value="154" />
           <entry key="json" value="32" />
           <entry key="md" value="16" />
-          <entry key="txt" value="65" />
+          <entry key="txt" value="87" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="22" />
           <entry key="JSON" value="32" />
-          <entry key="JavaScript" value="134" />
-          <entry key="PLAIN_TEXT" value="65" />
+          <entry key="JavaScript" value="154" />
+          <entry key="PLAIN_TEXT" value="87" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../zhaopin-client/config-overrides.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../zhaopin-client/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="78" column="10" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
+            <state relative-caret-position="330">
+              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../zhaopin-client/src/containers/login/login.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,8 +116,15 @@
         <option value="$PROJECT_DIR$/../zhaopin-client/README.md" />
         <option value="$PROJECT_DIR$/../zhaopin-client/onfig-overrides.js" />
         <option value="$PROJECT_DIR$/../zhaopin-client/package.json" />
-        <option value="$PROJECT_DIR$/../zhaopin-client/src/index.js" />
         <option value="$PROJECT_DIR$/../zhaopin-client/config-overrides.js" />
+        <option value="$PROJECT_DIR$/../zhaopin-client/src/containers/register/register.jsx" />
+        <option value="$PROJECT_DIR$/../zhaopin-client/src/containers/main/main.jsx" />
+        <option value="$PROJECT_DIR$/../zhaopin-client/src/containers/login/login.jsx" />
+        <option value="$PROJECT_DIR$/../zhaopin-client/src/index.js" />
+        <option value="$PROJECT_DIR$/../zhaopin-client/src/redux/actions.js" />
+        <option value="$PROJECT_DIR$/../zhaopin-client/src/redux/action-types.js" />
+        <option value="$PROJECT_DIR$/../zhaopin-client/src/redux/reducers.js" />
+        <option value="$PROJECT_DIR$/../zhaopin-client/src/redux/store.js" />
       </list>
     </option>
   </component>
@@ -134,6 +164,24 @@
               <item name="zhaopin-client" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhaopin-client" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="zhaopin-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhaopin-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhaopin-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhaopin-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhaopin-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhaopin-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -148,7 +196,7 @@
     <property name="options.lastSelected" value="configurable.group.appearance" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -172,7 +220,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534269496772</updated>
-      <workItem from="1534269499795" duration="3543000" />
+      <workItem from="1534269499795" duration="6265000" />
     </task>
     <task id="LOCAL-00001" summary="zhaopin project init3">
       <created>1534271105595</created>
@@ -188,11 +236,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534271241523</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="zhaopin project part 8">
+      <created>1534278823581</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1534278823581</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3543000" />
+    <option name="totallyTimeSpent" value="6265000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -209,11 +264,11 @@
     <layout>
       <window_info id="npm" sideWeight="0.5021645" side_tool="true" weight="0.17567568" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978355" visible="true" weight="0.19203414" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978355" visible="true" weight="0.23328592" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" weight="0.3299566" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49928877" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.49928877" weight="0.6121563" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50071126" side_tool="true" weight="0.7496382" />
       <window_info anchor="bottom" id="Messages" weight="0.6642547" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -239,20 +294,14 @@
     <MESSAGE value="zhaopin project init2" />
     <MESSAGE value="zhaopin project init3" />
     <MESSAGE value="update the readme file in this project" />
-    <option name="LAST_COMMIT_MESSAGE" value="update the readme file in this project" />
+    <MESSAGE value="zhaopin project part 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="zhaopin project part 8" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../zhaopin-client/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zhaopin-client/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -270,12 +319,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zhaopin-client/src/index.js">
+    <entry file="file://$PROJECT_DIR$/../zhaopin-client/src/containers/main/main.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="51" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="51" />
+        <state relative-caret-position="225">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zhaopin-client/src/containers/register/register.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -284,6 +343,60 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
           <caret line="78" column="10" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zhaopin-client/src/redux/actions.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zhaopin-client/src/redux/action-types.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zhaopin-client/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zhaopin-client/src/redux/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#28#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zhaopin-client/src/redux/reducers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zhaopin-client/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zhaopin-client/src/containers/login/login.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
